@@ -1,36 +1,34 @@
 import React from 'react';
-import { StyleSheet, Button, TextInput, View } from 'react-native';
-
-const styles = StyleSheet.create({
-    textInput: {
-        marginLeft: 5, 
-        marginRight: 5, 
-        height: 50, 
-        borderColor: '#000000', 
-        borderWidth: 1, 
-        paddingLeft: 5
-    },
-    view: {
-        marginTop: 20
-    },
-    button: {
-        height: 50
-    }
-});
+import { 
+    Button, 
+    TextInput, 
+    View, 
+    FlatList,
+} from 'react-native';
+import { MOVIES_SERVICE } from '../../helpers/ServiceProvider';
+import MovieItemComponent from '../components/movieItemComponent/MovieItemComponent';
+import { STYLES } from './SearchView.styles';
 
 const SearchView = () : JSX.Element => {
 
     return (
         <View 
-            style={styles.view}>
+            style={STYLES.view}>
             <TextInput 
-                style={styles.textInput}
+                style={STYLES.textInput}
                 placeholder="Title of movie" 
             />
             <Button 
-                style={styles.button}
+                style={STYLES.button}
                 title="Search" 
                 onPress={() => {}} 
+            />
+            <FlatList 
+                data={MOVIES_SERVICE.get()}
+                keyExtractor={(item) => item.id.toString()}
+                renderItem={
+                    ({item}) => <MovieItemComponent data={item} />
+                }
             />
         </View>
     );
