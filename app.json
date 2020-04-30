@@ -1,0 +1,17 @@
+{
+  "name": "MoviesAndMe",
+  "displayName": "MoviesAndMe",
+  "expo": {
+    "name": "MoviesAndMe",
+    "slug": "MoviesAndMe",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
