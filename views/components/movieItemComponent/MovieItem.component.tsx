@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native';
 import { IProps } from './MovieItem.component.iprops';
 import { STYLES } from './MovieItem.component.styles';
 import moment from "moment";
+import { MOVIES_SERVICE } from '../../../helpers/ServiceProvider.helper';
 
 const MovieItemComponent = (props : IProps) : JSX.Element => {
 
@@ -10,7 +11,7 @@ const MovieItemComponent = (props : IProps) : JSX.Element => {
         <View style={STYLES.main_container}>
             <Image 
                 style={STYLES.images} 
-                source={{uri: 'image'}} 
+                source={{uri: MOVIES_SERVICE.getImage(props.data.poster_path)}} 
             />
             <View style={STYLES.content_container}>
                 <View style={STYLES.header_container}>

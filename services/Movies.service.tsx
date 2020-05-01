@@ -1,5 +1,5 @@
 import IMoviesService from "../interfaces/IMoviesService.interface";
-import { ENV_ApiUrl } from "../helpers/Environment.helper";
+import { ENV_ApiUrl, ENV_ApiUrlImage } from "../helpers/Environment.helper";
 import { MovieType } from "../models/Movie.type";
 
 export default class MoviesService implements IMoviesService {
@@ -38,6 +38,10 @@ export default class MoviesService implements IMoviesService {
                     }
                 );
                 
+    }
+
+    getImage(name : string) : string {
+        return `${ENV_ApiUrlImage}${name}`
     }
 
 }
