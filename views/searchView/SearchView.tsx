@@ -53,6 +53,7 @@ const SearchView = () : JSX.Element => {
                 placeholder="Title of movie"
                 value={searchedText.data as string}
                 onChangeText={handleOnChangeText}
+                onSubmitEditing={handleOnPress}
             />
             <Button 
                 style={STYLES.button}
