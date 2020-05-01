@@ -1,83 +1,394 @@
 {
-    "adult": false,
-    "backdrop_path": "/pCUdYAaarKqY2AAUtV6xXYO8UGY.jpg",
-    "belongs_to_collection": null,
-    "budget": 63000000,
-    "genres": [{
-        "id": 18,
-        "name": "Drama"
-    }],
-    "homepage": "http://www.foxmovies.com/movies/fight-club",
-    "id": 550,
-    "imdb_id": "tt0137523",
-    "original_language": "en",
-    "original_title": "Fight Club",
-    "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-    "popularity": 47.835,
-    "poster_path": "/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
-    "production_companies": [{
-            "id": 508,
-            "logo_path": "/7PzJdsLGlR7oW4J0J5Xcd0pHGRg.png",
-            "name": "Regency Enterprises",
-            "origin_country": "US"
+    "page": 1,
+    "total_results": 412,
+    "total_pages": 21,
+    "results": [{
+            "popularity": 82.672,
+            "vote_count": 16604,
+            "video": false,
+            "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+            "id": 671,
+            "adult": false,
+            "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Harry Potter and the Philosopher's Stone",
+            "vote_average": 7.9,
+            "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard --  with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+            "release_date": "2001-11-16"
         },
         {
-            "id": 711,
-            "logo_path": "/tEiIH5QesdheJmDAqQwvtN60727.png",
-            "name": "Fox 2000 Pictures",
-            "origin_country": "US"
+            "popularity": 59.959,
+            "vote_count": 13941,
+            "video": false,
+            "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+            "id": 672,
+            "adult": false,
+            "backdrop_path": "/bvRnPaai6JL7XHF4K6414DdSHro.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Chamber of Secrets",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the Chamber of Secrets",
+            "vote_average": 7.7,
+            "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
+            "release_date": "2002-11-13"
         },
         {
-            "id": 20555,
-            "logo_path": "/hD8yEGUBlHOcfHYbujp71vD8gZp.png",
-            "name": "Taurus Film",
-            "origin_country": "DE"
+            "popularity": 14.822,
+            "id": 984,
+            "video": false,
+            "vote_count": 1268,
+            "vote_average": 7.5,
+            "title": "Dirty Harry",
+            "release_date": "1971-12-21",
+            "original_language": "en",
+            "original_title": "Dirty Harry",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "backdrop_path": "/5kex1QQCRjNFKbsaFLaX4j3IDKa.jpg",
+            "adult": false,
+            "overview": "When a madman dubbed 'Scorpio' terrorizes San Francisco, hard-nosed cop, Harry Callahan – famous for his take-no-prisoners approach to law enforcement – is tasked with hunting down the psychopath. Harry eventually collars Scorpio in  the process of rescuing a kidnap victim, only to see him walk on technicalities. Now, the maverick detective is determined to nail the maniac himself.",
+            "poster_path": "/UHxxkYe9tRdiPu0JFgcEL5hmQ4.jpg"
         },
         {
-            "id": 54051,
-            "logo_path": null,
-            "name": "Atman Entertainment",
-            "origin_country": ""
+            "popularity": 41.114,
+            "vote_count": 12388,
+            "video": false,
+            "poster_path": "/Ag21otqbeynZPGjEbzyr3X5Us0j.jpg",
+            "id": 767,
+            "adult": false,
+            "backdrop_path": "/fc5P2FX8cvKn6l8O27aKepnK3TT.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Half-Blood Prince",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the Half-Blood Prince",
+            "vote_average": 7.7,
+            "overview": "As Harry begins his sixth year at Hogwarts, he discovers an old book marked as 'Property of the Half-Blood Prince', and begins to learn more about Lord Voldemort's dark past.",
+            "release_date": "2009-07-07"
         },
         {
-            "id": 54052,
-            "logo_path": null,
-            "name": "Knickerbocker Films",
-            "origin_country": "US"
+            "popularity": 41.793,
+            "vote_count": 13042,
+            "video": false,
+            "poster_path": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+            "id": 674,
+            "adult": false,
+            "backdrop_path": "/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Goblet of Fire",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Harry Potter and the Goblet of Fire",
+            "vote_average": 7.8,
+            "overview": "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+            "release_date": "2005-11-16"
         },
         {
-            "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-            "name": "20th Century Fox",
-            "origin_country": "US"
+            "popularity": 42.25,
+            "vote_count": 13632,
+            "video": false,
+            "poster_path": "/uDQibffYgssdiqx7izO57wdLc6.jpg",
+            "id": 673,
+            "adult": false,
+            "backdrop_path": "/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Prisoner of Azkaban",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the  Prisoner of Azkaban",
+            "vote_average": 8,
+            "overview": "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black—and turns to sympathetic Professor Lupin for help.",
+            "release_date": "2004-05-31"
         },
         {
-            "id": 4700,
-            "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
-            "name": "The Linson Company",
-            "origin_country": ""
+            "popularity": 9.927,
+            "vote_count": 577,
+            "video": false,
+            "poster_path": "/zthprdjuK7vN4ABBGQXo8RF7qYB.jpg",
+            "id": 25941,
+            "adult": false,
+            "backdrop_path": "/AhmRmdlu7GYdiucfZzVCGyP8ICf.jpg",
+            "original_language": "en",
+            "original_title": "Harry Brown",
+            "genre_ids": [
+                28,
+                80,
+                18,
+                53
+            ],
+            "title": "Harry Brown",
+            "vote_average": 6.8,
+            "overview": "An elderly ex-serviceman and widower looks to avenge his best friend's murder by doling out his own form of justice.",
+            "release_date": "2009-11-11"
+        },
+        {
+            "popularity": 42.959,
+            "vote_count": 12589,
+            "video": false,
+            "poster_path": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+            "id": 12444,
+            "adult": false,
+            "backdrop_path": "/slW0M2G9txC0aUbftCTm1nYX1K8.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the Deathly Hallows: Part 1",
+            "vote_average": 7.8,
+            "overview": "Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort's bid for immortality. But with Harry's beloved Dumbledore dead  and Voldemort's unscrupulous Death Eaters on the loose, the world is more dangerous than ever.",
+            "release_date": "2010-10-17"
+        },
+        {
+            "popularity": 36.777,
+            "vote_count": 12671,
+            "video": false,
+            "poster_path": "/g6n8G0xPnBVUIKKK41sNmbZB5h4.jpg",
+            "id": 675,
+            "adult": false,
+            "backdrop_path": "/7qKWTyYvkyIrWgkUOHiNxHv3FNK.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Order of the Phoenix",
+            "genre_ids": [
+                12,
+                14,
+                9648
+            ],
+            "title": "Harry Potter and the Order of the Phoenix",
+            "vote_average": 7.7,
+            "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students – dubbed 'Dumbledore's Army' – to defend themselves against the dark arts.",
+            "release_date": "2007-06-28"
+        },
+        {
+            "popularity": 38.68,
+            "vote_count": 13514,
+            "video": false,
+            "poster_path": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+            "id": 12445,
+            "adult": false,
+            "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "vote_average": 8.1,
+            "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+            "release_date": "2011-07-07"
+        },
+        {
+            "popularity": 9.71,
+            "vote_count": 428,
+            "video": false,
+            "poster_path": "/rz0cls8nhbzIvcbntaICJDEnywl.jpg",
+            "id": 2639,
+            "adult": false,
+            "backdrop_path": "/coJLkvK5KZQoMl8vGqcpgAZYroi.jpg",
+            "original_language": "en",
+            "original_title": "Deconstructing Harry",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "Deconstructing Harry",
+            "vote_average": 7.4,
+            "overview": "This film tells the story of a successful writer called Harry Block, played by Allen himself, who draws inspiration from people he knows in real-life, and from events that happened to him, sometimes causing these people to become alienated from him as a result.",
+            "release_date": "1997-12-12"
+        },
+        {
+            "popularity": 12.04,
+            "vote_count": 2370,
+            "video": false,
+            "poster_path": "/iMuwYyqefcFhGrlvCg6mjhrRXGZ.jpg",
+            "id": 639,
+            "adult": false,
+            "backdrop_path": "/xd5SYDUhNVGLUeK2epbEjnVBpPN.jpg",
+            "original_language": "en",
+            "original_title": "When Harry Met Sally...",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "title": "When Harry Met Sally...",
+            "vote_average": 7.4,
+            "overview": "During their travel from Chicago to New York, Harry and Sally debate whether or not sex ruins a friendship between a man and a woman. Eleven years later, and they're still no closer to finding the answer.",
+            "release_date": "1989-01-12"
+        },
+        {
+            "popularity": 11.068,
+            "vote_count": 367,
+            "video": false,
+            "poster_path": "/reHlE6G4P1Tsd75REdD1ruhpKnm.jpg",
+            "id": 8989,
+            "adult": false,
+            "backdrop_path": "/ndaNxWhIohUrbMbeqz86Nonma39.jpg",
+            "original_language": "en",
+            "original_title": "Harry and the Hendersons",
+            "genre_ids": [
+                35,
+                14,
+                10751
+            ],
+            "title": "Harry and the Hendersons",
+            "vote_average": 5.8,
+            "overview": "Returning from a hunting trip in the forest, the Henderson family's car hits an animal in the road. At first they fear it was a man, but when they examine the \"body\" they find it's a \"bigfoot\". They think it's dead so they decide to take it home (there could be some money in this). As you guessed, it isn't dead. Far from being the ferocious monster they fear \"Harry\" to be, he's a friendly giant.",
+            "release_date": "1987-06-05"
+        },
+        {
+            "popularity": 7.188,
+            "vote_count": 149,
+            "video": false,
+            "poster_path": "/qf7LNguEfBHF9WRs9sKGPBaQYEt.jpg",
+            "id": 11718,
+            "adult": false,
+            "backdrop_path": "/hNQ0R4wSaXTUPUQti8FtKLf1HQ6.jpg",
+            "original_language": "en",
+            "original_title": "Who's Harry Crumb?",
+            "genre_ids": [
+                35,
+                80,
+                9648
+            ],
+            "title": "Who's Harry Crumb?",
+            "vote_average": 5.6,
+            "overview": "Harry Crumb is a bumbling and inept private investigator who is hired to solve the kidnapping of a young heiress which he's not expected to solve because his employer is the mastermind behind the kidnapping.",
+            "release_date": "1989-02-03"
+        },
+        {
+            "popularity": 5.357,
+            "vote_count": 29,
+            "video": false,
+            "poster_path": "/kl9yUlWRBEyXNGIXav1WIRBy5te.jpg",
+            "id": 91767,
+            "adult": false,
+            "backdrop_path": "/4PHbeHC7q7XJk44TsbAUwDS2rv1.jpg",
+            "original_language": "en",
+            "original_title": "Harry & Son",
+            "genre_ids": [
+                18
+            ],
+            "title": "Harry & Son",
+            "vote_average": 5.8,
+            "overview": "Widower Harry Keach is a construction worker who was raised to appreciate the importance of working for a living. He takes a dim view of his sensitive son Howard's lackadaisical lifestyle and has a strained relationship with his daughter Nina as he does not approve of her husband. When Harry is fired from his job, his life changes drastically as he is made to focus on the relationships around him.",
+            "release_date": "1984-03-02"
+        },
+        {
+            "popularity": 5.224,
+            "vote_count": 12,
+            "video": false,
+            "poster_path": "/sJc59xrw4bq8fsDDvUEp2ZkV2uv.jpg",
+            "id": 27091,
+            "adult": false,
+            "backdrop_path": "/kagW7NjLnnWzF7BFX8CfNUobQWM.jpg",
+            "original_language": "en",
+            "original_title": "Harry and Max",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "title": "Harry and Max",
+            "vote_average": 5.4,
+            "overview": "Two brothers, 23 and 16, who are both teen idols, come to terms with their dysfunctional family past and deep affection for each other.",
+            "release_date": "2004-01-17"
+        },
+        {
+            "popularity": 9.701,
+            "vote_count": 386,
+            "video": false,
+            "poster_path": "/uUXLq7fEG3hI46ZFMZzgHj11S6S.jpg",
+            "id": 11219,
+            "adult": false,
+            "backdrop_path": "/kqNOguuCc9fQuWrzv3LE6L1I4J1.jpg",
+            "original_language": "en",
+            "original_title": "The Trouble with Harry",
+            "genre_ids": [
+                35,
+                80
+            ],
+            "title": "The Trouble with Harry",
+            "vote_average": 7,
+            "overview": "Trouble erupts in a small, quiet New England town when a man's body is found in the woods. The problem is that almost everyone in town thinks that they had something to do with his death.",
+            "release_date": "1955-10-03"
+        },
+        {
+            "popularity": 4.786,
+            "id": 42448,
+            "video": false,
+            "vote_count": 40,
+            "vote_average": 7.1,
+            "title": "Harry and Tonto",
+            "release_date": "1974-08-12",
+            "original_language": "en",
+            "original_title": "Harry and Tonto",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "backdrop_path": "/e3pexaDjpbN45H4jkiNi5VVWS9u.jpg",
+            "adult": false,
+            "overview": "Harry is a retired teacher in his 70s living in the Upper West Side of New York City where his late wife and he raised his children--where he's lived all his life. When the building he lives in is torn down to make way for a parking garage, Harry and his beloved cat Tonto begin a journey across the United States, visiting his children, seeing a world he never seemed to have the time to see before, making new friends, and saying goodbye to old friends.",
+            "poster_path": "/eclcZ6IpWYJYvOMt6tlunbR1r6a.jpg"
+        },
+        {
+            "popularity": 9.495,
+            "vote_count": 37,
+            "video": false,
+            "poster_path": "/sdn5NdFMcsub3QUwlovOA9fPJoW.jpg",
+            "id": 647325,
+            "adult": false,
+            "backdrop_path": "/nKM71iyHoXG2DUBXml0mNwPChvg.jpg",
+            "original_language": "en",
+            "original_title": "The Thing About Harry",
+            "genre_ids": [
+                35,
+                10749,
+                10770
+            ],
+            "title": "The Thing About Harry",
+            "vote_average": 7.9,
+            "overview": "Two high school enemies, uber-jock Harry and out-and-proud Sam, are forced to share a car ride to their Missouri hometown for a friend's engagement party on Valentine's Day. Things take a turn when Sam learns Harry has come out.",
+            "release_date": "2020-02-15"
+        },
+        {
+            "popularity": 13.562,
+            "vote_count": 490,
+            "video": false,
+            "poster_path": "/hVePPTpMBUlrKqBC3lmRz37ihjK.jpg",
+            "id": 10152,
+            "adult": false,
+            "backdrop_path": "/zyE4edMw8D0klLfRzL5w7XRaMeN.jpg",
+            "original_language": "en",
+            "original_title": "Dumb and Dumberer: When Harry Met Lloyd",
+            "genre_ids": [
+                35
+            ],
+            "title": "Dumb and Dumberer: When Harry Met Lloyd",
+            "vote_average": 4.1,
+            "overview": "This wacky prequel to the 1994 blockbuster goes back to the lame-brained Harry and Lloyd's days as classmates at a Rhode Island high school, where the unprincipled principal puts the pair in remedial courses as part of a scheme to fleece the school.",
+            "release_date": "2003-04-14"
         }
-    ],
-    "production_countries": [{
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        }
-    ],
-    "release_date": "1999-10-15",
-    "revenue": 100853753,
-    "runtime": 139,
-    "spoken_languages": [{
-        "iso_639_1": "en",
-        "name": "English"
-    }],
-    "status": "Released",
-    "tagline": "Mischief. Mayhem. Soap.",
-    "title": "Fight Club",
-    "video": false,
-    "vote_average": 8.4,
-    "vote_count": 18993
+    ]
 }

@@ -16,11 +16,13 @@ export default class MoviesService implements IMoviesService {
                                     response.json()
                                             .then(
                                                 (responseData : any) => {
-                                                    // Result.
-                                                    let dataResults : MovieType[] = [];
-                                                    dataResults.push(responseData);
-                                                    // Resolve.
-                                                    resolve(dataResults);
+                                                    // Check response data
+                                                    if (responseData.results === undefined)
+                                                        // Resolve.
+                                                        resolve([]);
+                                                    else
+                                                        // Resolve.
+                                                        resolve(responseData.results);
                                                 },
                                                 (error : any) => {
                                                     // Reject.
