@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { IProps } from './MovieItemComponent.iprops';
-import { STYLES } from './MovieItemComponent.styles';
+import { IProps } from './MovieItem.component.iprops';
+import { STYLES } from './MovieItem.component.styles';
+import moment from "moment";
 
 const MovieItemComponent = (props : IProps) : JSX.Element => {
 
@@ -17,7 +18,7 @@ const MovieItemComponent = (props : IProps) : JSX.Element => {
                         {props.data.title}
                     </Text>
                     <Text style={STYLES.vote_text}>
-                        {props.data.voteAverage}
+                        {props.data.vote_average}
                     </Text>
                 </View>
                 <View style={STYLES.description_container}>
@@ -27,7 +28,7 @@ const MovieItemComponent = (props : IProps) : JSX.Element => {
                 </View>
                 <View style={STYLES.date_container}>
                     <Text style={STYLES.date_text}>
-                        {props.data.releaseDate?.toString()}
+                        {'Release at ' + moment(props.data.release_date as Date).format("YYYY-MM-DD")}
                     </Text>
                 </View>
             </View>

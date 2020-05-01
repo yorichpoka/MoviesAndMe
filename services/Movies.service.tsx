@@ -1,32 +1,41 @@
 import IMoviesService from "../interfaces/IMoviesService.interface";
-import MovieModel from "../models/Movie.model";
+import { ENV_ApiUrl } from "../helpers/Environment.helper";
+import { MovieType } from "../models/Movie.type";
 
 export default class MoviesService implements IMoviesService {
 
-    private _data : MovieModel[] =  [
-                                        new MovieModel(
-                                            181808, 
-                                            7.2, 
-                                            'Start wars III - Les derniers Jedi',
-                                            '',
-                                            'Start wars : the last Jedi',
-                                            'Nouvel episode de la saga...',
-                                            new Date(2017, 11, 13)
-                                        ),
-                                        new MovieModel(
-                                            181809, 
-                                            8.1, 
-                                            'La guerre des etoiles',
-                                            '',
-                                            'Start wars',
-                                            'Il y a bien longtemps dans la galaxy très lointaine...',
-                                            new Date(1977, 5, 25)
-                                        ),
-                                    ];
+    getSearchedQuery(query : string): Promise<MovieType[]> {
 
-
-    get(): MovieModel[] {
-        return this._data;
+        return  new Promise<MovieType[]>(
+                    (resolve, reject) => {
+                        // Request on api.
+                        fetch(`${ENV_ApiUrl}${query}`)
+                            .then(
+                                (response : Response) => {
+                                    // Get object of response.
+                                    response.json()
+                                            .then(
+                                                (responseData : any) => {
+                                                    // Result.
+                                                    let dataResults : MovieType[] = [];
+                                                    dataResults.push(responseData);
+                                                    // Resolve.
+                                                    resolve(dataResults);
+                                                },
+                                                (error : any) => {
+                                                    // Reject.
+                                                    reject(error);
+                                                }
+                                            );
+                                },
+                                (error : any) => {
+                                    // Reject
+                                    reject(JSON.stringify(error));
+                                }
+                            );
+                    }
+                );
+                
     }
 
 }

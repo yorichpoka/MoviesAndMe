@@ -1,7 +1,7 @@
-import MovieModel from "../models/Movie.model";
+import { MovieType } from "../models/Movie.type";
 
 export default interface IMoviesService {
 
-    get() : MovieModel[];
+    getSearchedQuery(query : string) : Promise<MovieType[]>;
 
 }
